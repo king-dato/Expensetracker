@@ -1,40 +1,37 @@
-# ExpenseTracker
-The Expense Tracker project aims to provide users with a convenient way to track their expenses. The project addresses the common problem of individuals and businesses needing to monitor and manage their spending habits. By developing an expense tracking application, users can easily record and analyse their expenses, helping them make informed financial decisions.
-## Features
-**1) User Registration and Login:** The project implemented a user registration and login system using ASP.NET MVC. Users can create an account with a unique username, password, and email. Password and email validation rules were enforced to ensure security and proper formatting.
+<h1 align="center"> 👨‍💻 GOIT Individual Project 👩‍💻 </h1>
+<h2 align="center">   Expenses Tracker 💸   </h2>
+<h3 align="center">  Ian "Yhanz" To-ong  </h3>
 
-**2) Expense Tracking and Budgeting:** The project provides functionality for users to track their expenses and create custom budgets. Users can enter their expenses, categorize them, and assign them to a specific budget. Budgets can be customized with allocated percentages for different expense categories, allowing users to manage their finances effectively.
+<span align="center">
 
-**3) User Dashboard:** A user dashboard was developed to provide users with an overview of their financial status. The dashboard displays the user's current budget, remaining budget, budget spent percentage, recent expenses, and a breakdown of expenses by category. It also highlights the top expense day in the last week.
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)&nbsp;
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)&nbsp;
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
 
-**4) Budget Management:** The project enables users to create, update, and delete budgets. Users can create custom budgets by specifying their monthly income, start date, end date, and allocation percentages for different expense categories. The system validates the allocated percentages to ensure they sum up to 100%. Users can also view and manage their existing budgets, including updating budget details and deleting budgets if needed.
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)&nbsp;
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)&nbsp;
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)&nbsp;
 
-Overall, the project successfully provides users with a personal expense tracking and budgeting solution, helping them monitor their expenses, analyze spending patterns, and stay within their budget limits.
-## Screenshots
-![Alt Text](UserInterfaceScreenshots/1.JPG)
+![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)&nbsp;
 
-![Alt Text](UserInterfaceScreenshots/2.JPG)
+</span>
 
-![Alt Text](UserInterfaceScreenshots/3.JPG)
+<h3 align="center"> 📌 Expenses Tracker 🌚 <h3>
 
-![Alt Text](UserInterfaceScreenshots/4.JPG)
+## Description
 
-![Alt Text](UserInterfaceScreenshots/5.JPG)
+The 'Expense Tracker' online tool efficiently manages daily spending with a
+versatile layout that adjusts seamlessly for desktops, tablets, and mobiles at
+1440, 768, and 375 pixels. Core features include main, authentication,
+transaction history, and primary transaction pages.
 
-![Alt Text](UserInterfaceScreenshots/6.JPG)
+Global variables ensure consistent styling, and fonts are integrated. Redux
+manages states, storing the user's token in localStorage via redux-persist.
 
-![Alt Text](UserInterfaceScreenshots/7.JPG)
+Responsive design, up to 375 pixels, introduces components like DecorationTab
+for balances and UserPanel for user settings.
 
-![Alt Text](UserInterfaceScreenshots/8.JPG)
-
-![Alt Text](UserInterfaceScreenshots/9.JPG)
-
-![Alt Text](UserInterfaceScreenshots/10.JPG)
-
-![Alt Text](UserInterfaceScreenshots/11.JPG)
-
-![Alt Text](UserInterfaceScreenshots/12.JPG)
-
-![Alt Text](UserInterfaceScreenshots/13.JPG)
-
-![Alt Text](UserInterfaceScreenshots/14.JPG)
+Private and public routes, determined by user authorization, are implemented
+with components like SharedLayout, BgImageWrapper, Header, handling rendering
+and interactions for both authorized and unauthorized users.
